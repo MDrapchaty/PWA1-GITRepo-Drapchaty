@@ -34,8 +34,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7878788">
-              <caret line="140" column="52" selection-start-line="140" selection-start-column="52" selection-end-line="140" selection-end-column="52" />
+            <state vertical-scroll-proportion="5.5151515">
+              <caret line="359" column="6" selection-start-line="359" selection-start-column="6" selection-end-line="359" selection-end-column="6" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -61,8 +61,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="458" />
-    <option name="y" value="54" />
+    <option name="x" value="257" />
+    <option name="y" value="65" />
     <option name="width" value="1253" />
     <option name="height" value="592" />
   </component>
@@ -176,7 +176,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="458" y="54" width="1253" height="592" extended-state="0" />
+    <frame x="257" y="65" width="1253" height="592" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -224,8 +224,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7878788">
-          <caret line="140" column="52" selection-start-line="140" selection-start-column="52" selection-end-line="140" selection-end-column="52" />
+        <state vertical-scroll-proportion="5.5151515">
+          <caret line="359" column="6" selection-start-line="359" selection-start-column="6" selection-end-line="359" selection-end-column="6" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

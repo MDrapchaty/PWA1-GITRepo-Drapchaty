@@ -144,7 +144,7 @@ console.log('------ numbers ----------');
     console.log("counter: ", num);
 
     //add a number to a string is always a string
-
+    console.log(5 + "4");
 
     //other math operations will result in a number
 
@@ -244,7 +244,8 @@ console.log('------ conditionals ----------');
     - conditions can be used just about anywhere, not just in conditionals and loops
 */
 
-
+    var myVar = 5 > 3;
+    console.log("is 5 greater than 3: ", myVar);
 
 /*
      most common comparison operators:
@@ -261,6 +262,10 @@ console.log('------ conditionals ----------');
          };
 */
 
+    if (5 > 3){
+        //execute code here.
+        console.log("'5 > 3:', True!" );
+    };
 
 
 /*
@@ -274,7 +279,17 @@ console.log('------ conditionals ----------');
 */
 
     // == performs a loose check of two values
+    if ("1" == 1){
+        console.log("'1' == 1, True");
+    };
 
+    if ("1" === 1){
+      console.log("'1' === 1, False");
+    };
+
+    if ("1" !== 1){
+        console.log("'1' === 1, False");
+    };
 
 
 /* ==============================================================
@@ -289,14 +304,38 @@ console.log('------ conditionals ----------');
  ================================================================
  */
 
-
+    if ("a" === "b"){
+        //TRUE: run code
+            console.log("a is less than b");
+    }else{
+        //FALSE: run code
+        console.log("if-else: the 'IF' statement is false");
+    };
 
     //if - else if - else (allows for multiple options)
-
+    if ("a" > "b"){
+        console.log("a is less then b");
+    }else if ("a" < "c"){
+        console.log("a is less then c");
+    }else if("a" < "d"){
+        console.log("a is less then d");
+    }else{
+        console.log("if - else if: all others returned false");
+    };
 
 
     //nested conditional statement
+    if ("a" !== "a"){
 
+        if ("b" === "b"){
+            console.log("In Nested if-else / b === b: True");
+        }else{
+
+        };
+
+    }else{
+        console.log("nested conditional : 1st IF returned false");
+    };
 
 
 /* ==============================================================
@@ -316,7 +355,9 @@ console.log('------ conditionals ----------');
  */
 
     //AND logical operator
-
+    if ( (1 === 1) && ("hi" === "hi") ){
+        console.log('&& logical operator: both sides = true');
+    };
 
     //OR logical operator
 
