@@ -180,8 +180,10 @@ console.log('------ arrays ----------');
  */
 
     //arrays can hold any data type
-
-
+    console.log("index 0: ", myArr[0]);
+    console.log("index 1: ", myArr[1]);
+    console.log("index 2: ", myArr[2]);
+    console.log("index 3: ", myArr[3]);
 
  /*******************************************
 
@@ -192,7 +194,9 @@ console.log('------ arrays ----------');
 
  ********************************************/
 
-
+    var myArray = [10,50,100,200];
+    var answer = myArray[0] + myArray[1] + myArray[2] + myArray[3];
+    console.log(answer);
 
 /*******************************************
 
@@ -208,6 +212,13 @@ console.log('------ arrays ----------');
     3. output array items using string concatenation
 
  ********************************************/
+
+    var myArray = new Array();
+    myArray[0] = "baseball";
+    myArray[1] = "football";
+    myArray[2] = "basketball";
+
+    console.log(myArray[0] + ', ' + myArray[1] + ', ' + myArray[2]);
 
 
  // conditionals: (definition, indexing, math, if, if-else, if-else if, ternary)
@@ -360,13 +371,23 @@ console.log('------ conditionals ----------');
     };
 
     //OR logical operator
-
+    if ( (1 === 1) || ("hi" === "no") ){
+        console.log('|| logical operator: one side = true');
+    };
 
     // ! NOT logical operator
-
+    if ( !(1 === 1) || ("hi" == "no") ){
+        console.log('! NOT logical operator: left is true converted to NOT');
+    }else{
+        console.log('! NOT logical operator: both sides = false');
+    };
 
     // all logical operators with order of operations
-
+    if (5 < 2 || (1 === 1 && ! (2 == "2" || 5 < 2))){
+        console.log('logical operator: false');
+    }else{
+      console.log('logical operator: false');
+    };
 
 
 /*******************************************
@@ -381,9 +402,15 @@ console.log('------ conditionals ----------');
     1. learn if - else
  ********************************************/
 
+    var weather = 'Cloudy';
 
+    if (weather === 'Sunny'){
+        bobsMood = 'happy';
+    }else{
+        bobsMood = 'sad';
+    }
 
-
+    console.log("If-Else weather: ", bobsMood);
 /*******************************************
  STUDENT ACTIVITY 4:
 
@@ -399,6 +426,33 @@ console.log('------ conditionals ----------');
         - else bobsMood = "sad"
     3.  console.log the results after each conditional
  ********************************************/
+
+    var weather = 'Cloudy';
+    var waves = 10;
+
+    if (weather === 'Sunny') {
+        if (waves === 10) {
+            bobsMood = 'PUMPED';
+        } else if ((waves < 9) && (waves >= 5)) {
+            bobsMood = 'mellow'
+        } else {
+            bobsMood = 'bummed';
+        }
+
+    }else if (weather === 'Overcast') {
+        if ((waves < 10) && (waves >= 7)) {
+            mood = 'jackedUP';
+        } else if ((waves <= 6) && (waves >= 3)) {
+            bobsMood = 'totally bummed';
+        }
+
+    }else {
+        bobsMood = 'sad';
+    };
+
+        console.log("If-Else weather: ", bobsMood);
+
+
 
 
 
@@ -436,6 +490,7 @@ console.log('------ conditionals ----------');
         - else student1 = 'sad'
     4.  console.log the results
  ********************************************/
+
 
 
 
@@ -481,9 +536,16 @@ console.log('------Functions ----------');
      - type the below as an example
         functionName();
  *****************************
+  */
+    var myctr = 1;
 
+    var myCounter = function(){
+        myctr++;
+        console.log('counter = ', myctr);
+    };
 
-
+    myCounter();
+    myCounter();
 
  /*
     function literal: passing data into a function
@@ -520,8 +582,14 @@ console.log('------Functions ----------');
     - items inside our function we call on these variables.. such as:
  */
 
+    var value1 = 1;
+    var value2 = 2;
 
+    var myFn = function(var1, var2) {
+        console.log('function number: ', var1 + var2);
+    };
 
+    myFn(value1, value2);
 
 /*******************************************
  STUDENT ACTIVITY 6:
@@ -535,8 +603,17 @@ console.log('------Functions ----------');
      6.  console.log the results
  ********************************************/
 
+    myctr = 1;
 
+    var myCounter = function(newct){
+        var myctr = 50;
+        myctr += newct;
+        console.log('counter = ', myctr);
 
+    };
+
+    myCounter(5);
+    myCounter(2);
 
 /*******************************************
  function literal: returning values
@@ -566,7 +643,20 @@ console.log('------Functions ----------');
     4.  console.log the results
  ********************************************/
 
+    myctr = 1;
 
+    var myCounter = function(newct){
+        //var myctr = 50;
+        myctr += newct;
+        console.log('counter = ', myctr);
+
+    };
+
+   var cnt = myCounter(5);
+    console.log('counter = ', cnt);
+
+    var cnt = myCounter(2);
+    console.log('counter = ', cnt);
 
 
 /*******************************************
@@ -579,3 +669,34 @@ console.log('------Functions ----------');
  5. console.log the Results
  ********************************************/
 
+var value1 = 'Overcast';
+var value2 = 5;
+
+    var moodFN = function(weather, waves) {
+        if (weather === 'Sunny') {
+            if (waves === 10) {
+                bobsMood = 'PUMPED';
+            } else if ((waves < 9) && (waves >= 5)) {
+                bobsMood = 'mellow'
+            } else {
+                bobsMood = 'bummed';
+            }
+
+        } else if (weather === 'Overcast') {
+            if ((waves < 10) && (waves >= 7)) {
+                mood = 'jackedUP';
+            } else if ((waves <= 6) && (waves >= 3)) {
+                bobsMood = 'totally bummed';
+            } else {
+                bobsMood = 'not happy';
+            }
+
+        } else {
+            bobsMood = 'sad';
+        };
+
+        return bobsMood;
+    };
+
+    var moodType = moodFN(value1, value2);
+    console.log("Bob's Mood: ", bobsMood);
