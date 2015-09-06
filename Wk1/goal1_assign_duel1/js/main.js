@@ -38,20 +38,27 @@
             //console.log(f2);
 
             //inflict damage
-            player1Health -= f1;
+            player1Health -= f1;  //decrementing damage from total healths
             player2Health -= f2;
 
-            console.log(player1Name + ":" + player1Health + " " + player2Name + ":" + player2Health);
+            console.log(player1Name + ":" + player1Health + " " + player2Name + ":" + player2Health); //displaying current healths
 
             var results = winnerCheck();
             console.log(results);
+
+            if(results === "no winner"){
+                round++;
+                alert(player1Name + ":" + player1Health + " *ROUND " + round + " OVER* " player2Name + ":" + player2Health);
+            }
 
         };
 
     };
 
 
-    function winnerCheck() {
+    function winnerCheck() {     //FN for winner check, checking both players health below 0
+        //console.log("in winner check FN"); testing
+
         var result = "no winner";
 
         if (player1Health < 1 && player2Health < 1) {
