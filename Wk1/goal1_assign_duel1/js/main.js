@@ -1,5 +1,5 @@
 /**
- * Created by  Matthew Drapchaty on 9/5/15.
+ * CMatthew, Drapchaty on 9/5/15.
  Assignment: Goal1: Duel1
  */
 
