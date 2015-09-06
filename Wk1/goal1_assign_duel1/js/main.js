@@ -43,12 +43,23 @@
 
             console.log(player1Name + ":" + player1Health + " " + player2Name + ":" + player2Health);
 
+            winnerCheck();
+
         };
 
     };
 
 
     function winnerCheck() {
+        var result="no winner";
+
+        if(player1Health<1 && player2Health<1){
+            result = "You Both Die";
+        }else if(player1Health<1){
+            result = player2Name + " WINS!";
+        }else if(player2Health<1){
+            result = player1Name + " WINS!";
+
     };
 
 
