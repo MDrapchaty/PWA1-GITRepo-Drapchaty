@@ -1,6 +1,6 @@
 /**
- * Matthew, Drapchaty on sept. 10.
- Assignment: Goal2: Duel2
+ * Matthew, Drapchaty on sept. 18.
+ Assignment: Goal4: Duel3
  */
 
 
@@ -85,7 +85,7 @@
 
         if(result !== 'no winner'){
             console.log(1);
-            this.removeAttribute('onclick');
+            this.onclick = null;
         };
 
 
