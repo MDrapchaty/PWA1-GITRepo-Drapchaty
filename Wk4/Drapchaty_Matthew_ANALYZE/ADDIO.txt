@@ -1,0 +1,33 @@
+Drapchaty,Matthew
+sept. 23, 2015
+wk4 ANALYZE
+
+
+main.js
+
+//create array called names with at least 5 items(people names)
+
+//For loop , set to run 3 times using a person object and store the 3 results into an array called people
+
+//  using math.random select one of the items (names) from names array to sent to constructor of ‘person’ along with the row in html which info will show
+
+//create a function called populateHTML, which outputs persons name and job on webpage
+
+//validation check that there is nor name repeats
+
+//setup interval to call a runUpdate function 30 times a second.
+
+//after all instances of person are stored in array, create FOR loop to go through each person and run a .prototype update() function, this loop should be called by a runUpdate function call in the set interval from above.
+
+
+person.js
+
+//assign person object to be a global variable using window.person = person
+
+//create two arrays within the person object, one named jobs that contains 4 or more items(jobs), and the other named actions with a multiple number of items(actions a person might do)
+
+//create a person constructor with 4 properties (var inside constructor) to be set inside constructor: name, action, job, and row.
+
+//main.js writes out persons name and job, display the action in 3rd column.
+
+// add a update() function to person object that will change the action displayed in the 3rd column every 5 seconds or so using .innerHTML to change the html 
