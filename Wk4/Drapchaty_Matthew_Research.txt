@@ -1,0 +1,33 @@
+Drapchaty, Matthew
+Research Project
+9/24/15
+
+			Javascript and Jquery
+
+	A very important question you might be asking is “what is Javascript?” Although this question can warrant many different responses and explanations I find W3Schools to be precise, and most importantly, simple to understand from a perspective of someone who may not be familiar with programming. “JavaScript is the programming language of HTML and the Web. Programming makes computers do what you want them to do. JavaScript is easy to learn.” This about sums up Javascript’s function and possibly explains why javascript is the most popular “language” in it’s field, because it is easier to learn, write, and read than many other programming languages.
+	
+	Personally I am new to Javascript, but am already very interested in it, and quite quickly have learned why some people can become “code-aholics”. The things you can tell your computer to do with Javascript seems to be limitless. Although Javascript is designed as a programming language, one that is used to get your computer/website to do actions and functions, it can also be used to style your websites, create games, and even alter the content of your website ( by altering the HTML ). “Speaking” Javascript is a skill that is highly valued in the tech world and it will be at the top of my resume of listed skills when it comes time to apply for a web development, or even web design job. Many hiring companies (with web dev position salaries averaging around 55k/yr) require anywhere between basic level knowledge of JS to many years of experience with this language, which has taken its place as a primary programming language, as mentioned in a CodeInstitute article titled “Is JavaScript The Primary Programming Language For The Enterprise?”. The article goes on to state that it is indeed the primary language currently and speaks as to why this might be .. 
+
+	“JavaScript has been around since the 1990s and has long established itself as one of the most popular web development languages for IT workers. Why? It has the ability to deliver rich, dynamic web content as well as being relatively lightweight and easy to use. RedMonk named it the top programming language earlier this year. Last year it was number two and the year before it had been on the top spot, so it’s consistently being spoken of in high regard.”
+
+	Now that we understand a little about what Javascript or ‘JS’ is, and why it is so popular, let’s take a look at what Jquery is. As said by Emily Miller-Francisco, an e-resource systems and web coordinator for Southern Oregon University, “It's a powerful set of JavaScript libraries for selecting elements and then operating on them using a CSS-like syntax. Basically, it allows you to use JavaScript at a macro level so that you don't have to do all the microcoding.” In short what this means, is that Jquery is a predefined set of available “terms” and “keywords” which will effectively save you a lot of time, and code, by being more efficient and user friendly. It is also fair to say that Jquery has gained a huge amount of popularity over the last ten years and is used regularly in JS by programmers to bring easier use and speed up coding times. Another one of the reasons Jquery has gained so much traction is that it is written more like the CSS or HTML languages, as mentioned in Emily Francisco-Miller’s article, which are a little easier on the eyes to write and read and are also languages that target styling or content that the user of the program or website is actually seeing and interacting with. This makes JS even more powerful as now with Jquery, we have less need to make alterations to our CSS and HTML and more of the “heavy lifting” can be done by JS, rather it is functionality or front end appearance, content, or styles. 
+
+
+Sources: 
+
+
+"JavaScript Tutorial." JavaScript Tutorial. Web. 24 Sept. 2015. <http://www.w3schools.com/js/>.
+
+
+
+"Is JavaScript The Primary Programming Language For The Enterprise?" Code Institute. 4 July 2014. Web. 24 Sept. 2015.
+
+
+
+
+Miller-Francisco, Emily. "Creating Dynamic Websites Using JQuery." EBSCO Host. 1 July 2010. Web. 24 Sept. 2015.
+
+
+
+
+ 
